@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<h1>Formularz kontaktowy</h1><br>
+
+<div id="frmcontact">
+    <form>
+
+        <div class="frmrow"></div>              
+            <label for="name">Imię: </label><br>
+            <input id="frmname" name="frmname" type="text" required/><br>
+
+            <label for="lsurname">Nazwisko:</label><br>
+            <input id="frmsurname" name="surname" type="text" required/><br>
+
+            <label for="phone">Numer telefonu:</label><br>
+            <input id="frmphone" name="phone" type="text" required/>
+        </div>
+   
+    </form>
+</div>
+
+<button>Wyświetl dane</button><br>
+
+
+<div id="container">
+    <p>Dane:</p> 
+    <p id="name"></p>
+    <p id="surname"></p>
+    <p id="phone"></p> 
+</div>
+
+
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
